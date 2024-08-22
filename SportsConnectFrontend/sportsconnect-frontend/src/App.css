@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+}
+
+nav button {
+  margin: 5px;
+  padding: 10px;
+}
+
+main {
+  margin-top: 20px;
+}
+
+.fixture-details {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fixture-details li {
+  margin: 0;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fixture-details li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fixture-details h3 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #333;
+}
+
+.fixture-details p {
+  margin: 5px 0;
+  color: #666;
+}

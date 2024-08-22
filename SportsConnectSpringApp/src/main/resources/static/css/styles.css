@@ -1,0 +1,67 @@
+/* Add these styles in a separate CSS file or within a <style> block in your HTML */
+
+.sport-section {
+    margin: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.fixture-details {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.fixture-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure header spans full width */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.fixture-date {
+    color: #555;
+}
+
+.fixture-type {
+    color: #777;
+}
+
+.fixture-teams {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Ensure teams section spans full width */
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.team {
+    flex: 1;
+    text-align: center;
+}
+
+.team.team-1 {
+    color: #007bff;
+}
+
+.team.team-2 {
+    color: #dc3545;
+}
+
+.fixture-score {
+    font-size: 16px;
+    color: #333;
+    text-align: center; /* Center-align score */
+    margin: 10px 0; /* Add some margin for spacing */
+}

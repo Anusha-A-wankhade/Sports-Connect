@@ -1,0 +1,11 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "username": "11",
+      "password": "11",
+      "email": "lokeshpatidar7898@gmail.com",
+      "resetToken": "VptthFbBs1ZeFyE9crNdbtcxnZilGIEF"
+    }
+  ]
+}

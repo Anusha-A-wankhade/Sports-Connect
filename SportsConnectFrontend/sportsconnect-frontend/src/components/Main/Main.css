@@ -1,0 +1,41 @@
+.fixture-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.fixture-card {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Vertical alignment */
+  gap: 10px; /* Space between items */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.fixture-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.fixture-card h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.fixture-card p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.fixture-card .score {
+  font-weight: bold;
+  color: #444;
+}
